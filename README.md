@@ -1,2 +1,2 @@
-# H01R0x-Hardware
-Hexabitz RGB LED Module Hardware Design
+# H08R6x-Hardware
+Hexabitz Time-of-Flight IR Sensor Module Hardware Design
