@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -15717,8 +15717,6 @@ Octopart Url : http://octopart.com/vlms1300-gs08-vishay-21709201</description>
 <pinref part="C15" gate="G$1" pin="1"/>
 <wire x1="173.355" y1="91.44" x2="173.355" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="173.355" y1="93.98" x2="157.48" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="R11" gate="G$1" pin="2"/>
-<wire x1="153.67" y1="93.98" x2="157.48" y2="93.98" width="0.1524" layer="91"/>
 <junction x="157.48" y="93.98"/>
 <pinref part="SUPPLY21" gate="G$1" pin="VDD"/>
 <wire x1="157.48" y1="100.965" x2="157.48" y2="93.98" width="0.1524" layer="91"/>
@@ -15791,6 +15789,8 @@ Octopart Url : http://octopart.com/vlms1300-gs08-vishay-21709201</description>
 <pinref part="U6" gate="G$1" pin="VCCA"/>
 <wire x1="149.225" y1="81.915" x2="149.225" y2="93.98" width="0.1524" layer="91"/>
 <junction x="149.225" y="93.98"/>
+<pinref part="R11" gate="G$1" pin="2"/>
+<wire x1="153.67" y1="93.98" x2="149.225" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="1.8V_EN" class="0">
